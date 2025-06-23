@@ -1,0 +1,104 @@
+body {
+  font: 16px Arial, sans-serif;
+  background-color: lightblue;
+  color: #333333;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 90%;
+  max-width: 900px;
+  margin: auto;
+  background-color: gainsboro;
+  padding: 20px;
+ 
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.judul {
+  font-size: 30px;
+  margin: 10px 0;
+}
+.navbar{
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px black;
+  text-align: center;
+}
+.navbar ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.navbar li {
+  display: inline;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: black;
+  padding: 5px 10px;
+  transition: background-color 0.3s;
+}
+
+.navbar a:hover {
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+}
+
+.artikel-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.artikel-item {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f9f9f9;
+  border-left: 5px solid steelblue;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 px black;
+}
+
+.artikel-konten {
+  flex: 3;
+  margin-right: 20px;
+}
+
+.artikel-konten h3 {
+  margin: 0 0 10px;
+}
+
+.artikel-konten h3 a {
+  text-decoration: none;
+  color: steelblue;
+}
+
+.artikel-konten h3 a:hover {
+  text-decoration: underline;
+}
+
+.artikel-gambar {
+  flex: 1;
+}
+
+.artikel-gambar img {
+  width: 300px;
+  height: auto;
+  border-radius: 6px;
+  box-shadow: 0 0 3px black;
+}

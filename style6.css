@@ -1,0 +1,55 @@
+body {
+  font: 16px Arial, sans-serif;
+  background-color: lightblue;
+  color: #333333;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 90%;
+  max-width: 900px;
+  margin: auto;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 0 1px black;
+}
+.container h1{
+    background-color: gainsboro;
+}
+.footer{
+  text-align: center;
+  margin-top: 20px;
+}
+.footer a{
+    text-decoration: none;
+  color: black;
+}
+.tanggal{
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+  color: gray;
+  margin-bottom: 20px;
+}
+
+.artikel-gambar {
+      text-align: center;
+      margin: 20px 0;
+    }
+.artikel-gambar img {
+  max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 0 10px black;
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+h1 {
+ font-size: 24px;
+ color: steelblue;
+ margin-bottom: 10px;
+}

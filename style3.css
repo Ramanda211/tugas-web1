@@ -1,0 +1,142 @@
+body {
+  font: 16px Arial, sans-serif;
+  background-color: lightblue;
+  color: #333333;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 90%;
+  max-width: 900px;
+  margin: auto;
+  background-color: gainsboro;
+  padding: 20px;
+  box-shadow: 0 0 1px black;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.judul {
+  font-size: 30px;
+  margin: 10px 0;
+  text-align: center;
+  color: black;
+}
+.navbar{
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px black;
+  text-align: center;
+}
+.navbar ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.navbar li {
+  display: inline;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: black;
+  padding: 5px 10px;
+  transition: background-color 0.3s;
+}
+
+.navbar a:hover {
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 10px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.gallery img {
+  width: 100%;            
+  height: 150px;          
+  object-fit: cover;       
+  border: 2px solid #ccc;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+  border-color: steelblue;
+}
+.keterangan{
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px black;
+  text-align: center;
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.85);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.preview-img {
+  max-width: 80%;
+  max-height: 80%;
+  border: 4px solid white;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+}
+.footer{
+  text-align: center;
+  margin-top: 20px;
+}
+.footer a{
+    text-decoration: none;
+  color: black;
+}
+.artikel-list{
+  box-shadow: 0 0 10px black;
+
+}
+
+.artikel-gambar {
+      text-align: center;
+      margin: 20px 0;
+    }
+.artikel-gambar img {
+  max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 0 10px black;
+}
+p {
+  margin-bottom: 15px;
+}
+
+h1 {
+ font-size: 24px;
+ color: steelblue;
+ margin-bottom: 10px;
+    }
